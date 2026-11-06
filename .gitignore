@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Modelos descargados por DeepFace
+.deepface/
+
+# Sistema
+.DS_Store
+Thumbs.db
