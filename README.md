@@ -1,13 +1,13 @@
 # 😊 Reconocimiento de Emociones en Tiempo Real (PC + ESP32)
 
-Proyecto que detecta emociones faciales en tiempo real usando la cámara web de la computadora, con **OpenCV** y **DeepFace**. En una siguiente etapa, el resultado se enviará a un **ESP32** para mostrar la emoción detectada en una pantalla.
+Proyecto que detecta emociones faciales en tiempo real usando la cámara web de la computadora, con **OpenCV** y **DeepFace**.
 
 ## 📌 Características
 
 - Captura de video en vivo desde la webcam.
 - Detección de la emoción dominante en cada fotograma (feliz, triste, enojado, sorprendido, neutral, miedo, asco).
 - Visualización de la emoción sobre la ventana de video y en la consola.
-- Fácil de ejecutar en un entorno virtual de Python.
+- Ejecución en un entorno virtual de Python.
 
 ## 🧰 Tecnologías utilizadas
 
@@ -17,7 +17,7 @@ Proyecto que detecta emociones faciales en tiempo real usando la cámara web de 
 | [OpenCV](https://opencv.org/) | Captura y visualización de video |
 | [DeepFace](https://github.com/serengil/deepface) | Reconocimiento de emociones con IA |
 | [tf-keras](https://pypi.org/project/tf-keras/) | Compatibilidad de TensorFlow con DeepFace |
-| ESP32 *(próximamente)* | Mostrar la emoción en una pantalla |
+| ESP32 | Mostrar la emoción en una pantalla |
 
 ## ✅ Requisitos previos
 
@@ -31,7 +31,7 @@ Proyecto que detecta emociones faciales en tiempo real usando la cámara web de 
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/TU_USUARIO/emociones-esp32.git
+   git clone https://github.com/moonthang/emociones-eps32.git
    cd emociones-esp32
    ```
 
